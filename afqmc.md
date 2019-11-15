@@ -3,10 +3,14 @@
 * Open Julia pkg and write
 
   ```(v1.2) pkg> generate AFQMC```
+
+* Rename the fold to `afqmc.jl`
+ 
+  My github username is `afqmc`. If the folder's name is `AFQMC`, my personal website and gh-pages will have 404 error.
  
 * Open `~/.julia/config/startup.jl` and write the command
 
-  ```push!(LOAD_PATH, "/Users/hshi/myproject/AFQMC/AFQMC")```
+  ```push!(LOAD_PATH, "/Users/hshi/myproject/AFQMC/afqmc.jl")```
   
 * Setup git environment
 
@@ -26,7 +30,7 @@
 
   * `git commit -m "init AFQMC project.."`
 
-  * `git remote add github https://github.com/afqmc/AFQMC.git`
+  * `git remote add github https://github.com/afqmc/afqmc.jl.git`
 
   * `git push -u github master`
 
