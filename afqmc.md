@@ -121,4 +121,14 @@
      
   * Copy the files in `build` to gh-pages and push it the cloud.
 
+  * We can maintain different versions by using `versions.js` file, e.g. using the command below
+  
+    ```
+    var DOC_VERSIONS = [
+    "stable",
+    "v0.5",
+    "v0.1",
+    "dev",
+   ];
+   ```
   
