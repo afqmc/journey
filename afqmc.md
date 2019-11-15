@@ -43,7 +43,6 @@
       ```
       using Documenter, AFQMC 
       makedocs(sitename="AFQMC.jl")
-
       ```
       
   * Write in `src/AFQMC.jl`
@@ -61,7 +60,6 @@
       greet() = print("Hello World!")
 
       end # module
-      
       ```
       
   * Write in `docs/src/index.md`
@@ -90,7 +88,6 @@
      
      ```
      python3 -m http.server --bind localhost 8000
- 
      ```
   
   * In web browser
