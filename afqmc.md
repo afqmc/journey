@@ -2,7 +2,7 @@
 
 * Open Julia pkg and write
 
- ```(v1.2) pkg> generate AFQMC```
+  ```(v1.2) pkg> generate AFQMC```
  
 * Open `~/.julia/config/startup.jl` and write the command
 
@@ -83,13 +83,13 @@
   * In `docs/build`
 
      ```
-      python -m SimpleHTTPServer 8000
+     python -m SimpleHTTPServer 8000
      ```
      
      or
      
      ```
-      python3 -m http.server --bind localhost 8000
+     python3 -m http.server --bind localhost 8000
  
      ```
   
