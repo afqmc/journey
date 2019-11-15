@@ -1,11 +1,11 @@
 # Markdown 
 
 * Download `MacDown` on Mac to edit markdown file.
-* GitHub mastering Markdown [link!] (https://guides.github.com/features/mastering-markdown).
+* GitHub mastering Markdown https://guides.github.com/features/mastering-markdown.
 
 # GitHub Markdown Page
 
-* Learn from the website [here!] (https://nicolas-van.github.io/easy-markdown-to-github-pages/).
+* Learn from the website https://nicolas-van.github.io/easy-markdown-to-github-pages.
 * Follow the steps
  * Create `journey` repository 
  * Add file `_config.yml` 
@@ -13,5 +13,5 @@
  * In `Source` option, select `master branch` then `save`
  * Choose a theme
  * Create an `index.md`
- * The website will be [https://afqmc.github.io/journey!] (https://afqmc.github.io/journey).
+ * The website will be https://afqmc.github.io/journey.
  

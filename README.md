@@ -1,3 +1,5 @@
-This the journey about AFQMC library. I will write down things I learned during creating the library, hope it will be useful for you.
+This the journey about AFQMC library. 
 
-# [Setup journey](journey.md)
+I am going to write down things I learned during creating the library.
+
+1. [Setup journey](journey.md)
