@@ -10,9 +10,9 @@
   
 * Setup git environment
 
- * `git init`
+  * `git init`
  
- * Open `.git/info/exclud` and write
+  * Open `.git/info/exclud` and write
  
      ```
      *.swp
@@ -20,25 +20,25 @@
      .*
      docs/build/
      ```
- * Add README.md 
+  * Add README.md 
 
- * `git add .`
+  * `git add .`
 
- * `git commit -m "init AFQMC project.."`
+  * `git commit -m "init AFQMC project.."`
 
- * `git remote add github https://github.com/afqmc/AFQMC.git`
+  * `git remote add github https://github.com/afqmc/AFQMC.git`
 
- * `git push -u github master`
+  * `git push -u github master`
 
 * Setup documentation environment
 
- * Follow the instruction on https://juliadocs.github.io/Documenter.jl/stable/man/guide/
+  * Follow the instruction on https://juliadocs.github.io/Documenter.jl/stable/man/guide/
 
- * In AFQMC directory, run `mkdir docs`
+  * In AFQMC directory, run `mkdir docs`
  
- * In `docs`, run `mkdir src; touch make.jl`
+  * In `docs`, run `mkdir src; touch make.jl`
 
- * Write the following in to `make.jl`
+  * Write the following in to `make.jl`
  
       ```
       using Documenter, AFQMC 
@@ -46,7 +46,7 @@
 
       ```
       
- * Write in `src/AFQMC.jl`
+  * Write in `src/AFQMC.jl`
  
       ```
       module AFQMC
@@ -64,7 +64,7 @@
       
       ```
       
- * Write in `docs/src/index.md`
+  * Write in `docs/src/index.md`
  
        ````
        #AFQMC.jl Documentation
@@ -74,9 +74,9 @@
        ```
        ````
        
-  * In docs, run `julia --color=yes make.jl`
+   * In docs, run `julia --color=yes make.jl`
 
-  * The documentation is created in `docs/build`
+   * The documentation is created in `docs/build`
 
 * Use localhost to check the documentation
  
