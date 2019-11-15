@@ -1,4 +1,4 @@
-# Creating Package
+# Inital Package
 
 * Open Julia pkg and write
 
@@ -12,7 +12,7 @@
 
   ```push!(LOAD_PATH, "/Users/hshi/myproject/AFQMC/afqmc.jl")```
   
-* Setup git environment
+# Setup Git
 
   * `git init`
  
@@ -33,8 +33,8 @@
   * `git remote add github https://github.com/afqmc/afqmc.jl.git`
 
   * `git push -u github master`
-
-* Setup documentation environment
+ 
+# Setup Documentation
 
   * Follow the instruction on https://juliadocs.github.io/Documenter.jl/stable/man/guide/
 
@@ -80,7 +80,7 @@
 
    * The documentation is created in `docs/build`
 
-* Use localhost to check the documentation
+## localhost 
  
   * In `docs/build`
 
@@ -100,7 +100,7 @@
      http://localhost:8000/
      ```
    
-* Setup gh-pages branch
+## gh-pages
 
   * Push the master branch to the cloud 
 
