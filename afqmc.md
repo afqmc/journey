@@ -132,3 +132,16 @@
    ];
    ```
   
+# Test
+   
+   * Generate`test/runtests.jl` to write tests.
+   * Add `Test` package
+
+     ```
+     julia>]
+     (v1.2) pkg> activate .
+     (AFQMC) pkg> activate ./test/
+     (test) pkg> add Test
+     ```  
+   * Test environment will be in `test/Manifest.toml` and `test/Project.toml`
+   * Add `deps/build.jl`, the package will run `build.jl` when it is installed.
