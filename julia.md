@@ -9,7 +9,7 @@
   using Random
   
   M = 10
-  A =  rand(M,M)
+  A = rand(M,M)
   B = sparse([1], [2], [0.2], M, M)
   
   #Dot add
@@ -22,10 +22,9 @@
   These operation will treat `B` as a densy matrix, the better way should be
   
   ```
-    Nlg = nnz(B)
-    Iv, Jv, Vv = findnz(B)
-    for k in 1:Nlg
-        A[ Iv[k], Jv[k] ] += B[k]
-    end
-
+  Nlg = nnz(B)
+  Iv, Jv, Vv = findnz(B)
+  for k in 1:Nlg
+      A[ Iv[k], Jv[k] ] += B[k]
+  end
   ```
